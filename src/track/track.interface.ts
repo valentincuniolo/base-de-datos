@@ -1,1 +1,13 @@
-export interface Track {}
+export interface Track {
+id:number;
+tittle:string;
+duration:number;
+artist:string;
+
+
+
+
+
+
+
+}
