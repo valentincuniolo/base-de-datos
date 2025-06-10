@@ -3,10 +3,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
     <H1>HOLA</H1>
+<button id="obtenerdatos">consultar db </button>
+<h1>mensaje del backend</h1>
+<ol id="lista-canciones" class="lista-canciones"></ol>
+<div id="resultado"></div>
+
+<form id="form-cancion" class="formulario">
+    <label>
+titulo:
+<input type="text" id="titulo" required>
+
+    </label>
+
+    <label>
+artista:
+<input type="text" id="artista" required>
+
+    </label>
+
+    <label>
+duracion:
+<input type="number" id="duracion" required>
+
+    </label>
+<button type="submit">agregar cancion</button>
+
+</form>
+    
     
 </body>
 </html>
